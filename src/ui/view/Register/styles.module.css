@@ -1,0 +1,6 @@
+.page_register{
+    min-height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

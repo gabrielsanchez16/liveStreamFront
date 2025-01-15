@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.home{
+    background-color: rgb(244, 244, 244);
+    min-height:94vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+

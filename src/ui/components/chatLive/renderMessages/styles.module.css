@@ -1,0 +1,87 @@
+.container_messages {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 75vh;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.no_messages{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.comment {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 3px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: .4rem;
+    width: fit-content;
+}
+
+.profile_description {
+    display: flex;
+    align-items: center;
+}
+
+.pic_profile {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 9px;
+    color: white;
+    background-color: green;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.profile_identification {
+    display: flex;
+
+    p {
+        font-size: 10px;
+        color: rgb(37, 37, 37);
+    }
+
+    span {
+        font-size: 10px;
+        color: rgb(37, 37, 37);
+    }
+}
+
+.message {
+    color: rgb(37, 37, 37);
+
+    p{
+        font-size: 10px;
+    }
+}
+
+.content_body{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.error{
+    font-size: 16px;
+    color: rgb(241, 141, 141);
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .no_messages{
+        font-size: 16px;
+    }
+}

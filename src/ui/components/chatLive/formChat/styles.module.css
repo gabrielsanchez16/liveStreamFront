@@ -1,0 +1,56 @@
+.form_send_message {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    input {
+        border-radius: 6px;
+        border: solid 1px rgb(206, 206, 206);
+        padding: .5rem;
+        width: 70%;
+    }
+
+    button{
+        border: none;
+        border-radius: 6px;
+        background-color: green;
+        cursor: pointer;
+        padding: .3rem .6rem;
+    }
+}
+
+.profile {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    background-color: green;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.button {
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .form_send_message {
+    
+        input {
+            width: 60%;
+        }
+    }
+}

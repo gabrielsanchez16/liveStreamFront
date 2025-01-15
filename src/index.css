@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;400;700&display=swap');
+
+:root {
+  font-family: 'Spectral', serif;
+  box-sizing: border-box;
+
+  --greenPrimary:rgb(0, 185, 0);
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} 
+
+body{
+  background-color: rgb(244, 244, 244);
+}
+
+
+h1{
+  margin: 0;
+}
+

@@ -1,0 +1,88 @@
+
+.form_register {
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 2px 23px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 23px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 23px -12px rgba(0, 0, 0, 0.75);
+}
+
+.form_register legend {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--greenPrimary);
+    text-align: center;
+}
+
+.camp_register {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 1rem;
+}
+
+.camp_register label {
+    color: rgb(69, 69, 69);
+}
+
+.camp_register input {
+    border-radius: 6px;
+    border: solid 1px rgb(206, 206, 206);
+    padding: .8rem;
+    transition: .5s ease-in-out;
+}
+
+.camp_register select {
+    border-radius: 6px;
+    border: solid 1px rgb(206, 206, 206);
+    padding: .8rem;
+    transition: .5s ease-in-out;
+}
+
+.camp_register input:hover {
+    transform: scale(1.03);
+}
+
+.form_register button {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--greenPrimary);
+    transition: .5s ease-in-out;
+}
+
+.form_register button:hover {
+    transform: scale(1.03);
+}
+
+.form_register p {
+    margin: 1rem 0;
+    color: rgb(113, 113, 113);
+}
+
+.form_register p span {
+    color: var(--greenPrimary);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.correct_create_form {
+    color: var(--greenPrimary) !important;
+    font-weight: 700;
+}
+
+.error_form{
+    color: rgb(170, 6, 6) !important;
+    font-weight: 700;
+}

@@ -1,0 +1,6 @@
+.page_login{
+    min-height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
