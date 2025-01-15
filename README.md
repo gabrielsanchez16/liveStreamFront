@@ -16,7 +16,7 @@ LiveStreamFront es una aplicación front-end basada en React creada con Vite. Ut
 ## Ejecutando la aplicación
 Para iniciar la aplicación, utilice el siguiente comando:
 
-##Nota
+## Nota
 Les anexe el .env para que vean las variables a cambiar
 
 ```golpecito
