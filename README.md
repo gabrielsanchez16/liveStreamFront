@@ -11,10 +11,13 @@ LiveStreamFront es una aplicación front-end basada en React creada con Vite. Ut
 
 ## Mejores prácticas
 - **Autenticación mediante contexto**: la aplicación utiliza React Context para administrar el estado y la lógica de autenticación, lo que garantiza un enfoque centralizado y coherente.
-- **Técnica de sondeo**: Debido a limitaciones de tiempo, Socket.IO no se implementó. En cambio, se utilizó la técnica de sondeo para simular actualizaciones en tiempo real.
+- **Técnica de polling**: Debido a limitaciones de tiempo, Socket.IO no se implementó. En cambio, se utilizó la técnica de polling para simular actualizaciones en tiempo real.
 
 ## Ejecutando la aplicación
 Para iniciar la aplicación, utilice el siguiente comando:
 
+##Nota
+Les anexe el .env para que vean las variables a cambiar
+
 ```golpecito
-npm ejecutar desarrollador
+npm run dev
