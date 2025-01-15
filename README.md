@@ -1,9 +1,20 @@
-# React + Vite
+# Documentación de LiveStreamFront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción general
+LiveStreamFront es una aplicación front-end basada en React creada con Vite. Utiliza herramientas modernas de desarrollo web y mejores prácticas para ofrecer una experiencia de usuario eficaz y escalable.
 
-Currently, two official plugins are available:
+## Características clave
+- **React + Vite**: garantiza ciclos de desarrollo rápidos con reemplazo de módulo en caliente (HMR).
+- **Axios**: Se utiliza para realizar solicitudes HTTP e interactuar con la API.
+- **React Router DOM**: Gestiona el enrutamiento y la navegación dentro de la aplicación.
+- **Módulos CSS**: permite un estilo modular y de ámbito para los componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# liveStreamFront
+## Mejores prácticas
+- **Autenticación mediante contexto**: la aplicación utiliza React Context para administrar el estado y la lógica de autenticación, lo que garantiza un enfoque centralizado y coherente.
+- **Técnica de sondeo**: Debido a limitaciones de tiempo, Socket.IO no se implementó. En cambio, se utilizó la técnica de sondeo para simular actualizaciones en tiempo real.
+
+## Ejecutando la aplicación
+Para iniciar la aplicación, utilice el siguiente comando:
+
+```golpecito
+npm ejecutar desarrollador
